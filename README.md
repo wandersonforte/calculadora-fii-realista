@@ -1,43 +1,45 @@
 # calculadora-fii-realista
 Meu primeiro projeto de Excel: um simulador de investimentos em FIIs que desconta a inflação e projeta o poder de compra real ao longo do tempo
-Olá! Este é o meu primeiro projeto prático de Excel e também minha estreia aqui no GitHub. Desenvolvi esta calculadora como projeto de um curso que estou realizando, com o objetivo de aplicar na prática tudo o que aprendi sobre fórmulas financeiras, lógica de dados e dashboards interativos.
 
-🌟 O Desafio
-Ao começar a estudar sobre investimentos em Fundos Imobiliários (FIIs), percebi que muitas calculadoras na internet são "otimistas demais" pois não consideram a inflação. Meu objetivo foi criar uma ferramenta que mostrasse a realidade nua e crua: quanto o seu dinheiro realmente vai valer no futuro (Poder de Compra).
+Olá! Este é o meu primeiro projeto prático de Excel, desenvolvido como parte de um desafio de laboratório na DIO (Digital Innovation One). O objetivo foi transformar conceitos teóricos de finanças e ferramentas de produtividade em uma solução real que ajude investidores a planejarem seu futuro com Fundos Imobiliários.
 
-🧠 O que eu aprendi e apliquei
-Neste projeto, saí das fórmulas básicas e explorei recursos avançados do Excel que eu não conhecia:
+- O DESAFIO
+O professor nos propôs o seguinte: construir uma ferramenta que automatize cálculos complexos e responda às dúvidas mais comuns de quem investe: "Quanto vou ter no futuro?", "Qual será minha renda mensal?" e "Quanto preciso investir por mês?".
 
-1. Matemática Financeira Realista
-Aprendi a usar a função VF() (Valor Futuro), mas o maior aprendizado foi entender a diferença entre Taxa Nominal e Taxa Real.
+Mais do que apenas números, o foco foi criar algo que auxiliasse na tomada de decisão informada, saindo do "achismo" e indo para a simulação baseada em dados.
 
-Desenvolvi uma fórmula para descontar a inflação (IPCA) mensalmente, garantindo que o gráfico mostre o crescimento real do patrimônio.
+- O QUE EU CONSTRUI?
+Eu desenvolvi uma Calculadora de Investimentos em FIIs que não foca apenas no saldo final, mas no poder de compra. Afinal, R$ 1 milhão hoje não comprará as mesmas coisas daqui a 30 anos.
 
-2. Inteligência por Perfil (Lógica Ponderada)
-Em vez de uma taxa fixa, criei uma aba AUXILIAR que funciona como o "cérebro" da planilha.
+- DESTAQUES DA FERRAMENTA:
+Inteligência por Perfil: Em vez de uma taxa fixa, a planilha calcula o rendimento baseado no perfil do usuário (Conservador, Moderado ou Agressivo), simulando uma carteira real de ativos (Papel, Tijolo, etc.).
 
-Usei a função SOMARPRODUTO para que, ao escolher um perfil (Conservador, Moderado ou Agressivo), a planilha calcule automaticamente o rendimento com base em uma carteira diversificada de FIIs de Papel, Tijolo e outros.
+O Efeito "Bola de Neve": Criei uma função onde o usuário decide se quer reinvestir os dividendos ou não, mostrando visualmente a diferença brutal que isso faz no longo prazo.
 
-3. Gráficos Interativos
+Filtro de Inflação: A planilha desconta a inflação estimada para mostrar o Patrimônio Real (quanto o seu dinheiro valerá em "valores de hoje").
 
-Usei o Gerenciador de Nomes combinado com a função DESLOC. Isso permite que o usuário escolha ver a projeção de 2 anos até 30 anos, e o gráfico se ajusta sozinho na tela sem deixar espaços vazios.
+Gráfico Interativo: Usei técnicas para que o gráfico mude conforme o tempo escolhido (2, 5, 10... 30 anos), dando um "zoom" nos dados.
 
-📊 Como a planilha funciona
-Configuração: O usuário insere o salário e quanto deseja investir.
+- O QUE APRENDI NO CAMINHO
+Este projeto foi uma grande jornada de aprendizado. Para concluí-lo, precisei dominar:
 
-Personalização: É possível escolher o perfil de risco e se os dividendos serão reinvestidos ou não.
+Cálculos Financeiros: Aplicação de juros compostos com a função VF() e cálculos de rendimento ponderado.
 
-Visualização: O dashboard mostra 4 curvas:
+Lógica e Automação: Aprendi a usar SOMARPRODUTO, DESLOC e o Gerenciador de Nomes para tornar a planilha dinâmica.
 
-Nominal vs Real (com reinvestimento).
+Documentação Técnica: Como estruturar este arquivo para que outros entendam o que eu fiz.
 
-Nominal vs Real (sem reinvestimento).
+Ecossistema GitHub: Esta é minha primeira experiência subindo um projeto e documentando cada passo aqui.
 
-🛠️ Tecnologias e Funções utilizadas
-Excel (Funções: VF, DESLOC, SOMARPRODUTO, SE, VALIDACAO DE DADOS).
+- ESTRUTURA DO PROJETO
+APP_INVEST: A interface onde tudo acontece. É o dashboard interativo.
 
+AUXILIAR: Onde guardo as taxas de mercado e as tabelas de suporte que alimentam os gráficos.
 
+- CONSIDERAÇÕES FINAIS
 
-Dica de Aluno: Se você está começando no Excel como eu, o maior aprendizado aqui foi quebrar a cabeça com o erro #VALOR! até entender como as referências de abas funcionam. Foi difícil, mas valeu a pena!
+Fique à vontade para baixar, testar e me enviar sugestões. Estou apenas começando, mas muito orgulhoso do resultado!
+
+Desenvolvido por Wanderson Forte durante o desafio de Excel na DIO. aqui foi quebrar a cabeça com o erro #VALOR! até entender como as referências de abas funcionam. Foi difícil, mas valeu a pena!
 
 Sinta-se à vontade para baixar, testar e me dar feedbacks. Toda sugestão é muito bem-vinda para o meu crescimento!
