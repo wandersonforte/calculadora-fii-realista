@@ -40,6 +40,6 @@ AUXILIAR: Onde guardo as taxas de mercado e as tabelas de suporte que alimentam 
 
 Fique à vontade para baixar, testar e me enviar sugestões. Estou apenas começando, mas muito orgulhoso do resultado!
 
-Desenvolvido por Wanderson Forte durante o desafio de Excel na DIO. aqui foi quebrar a cabeça com o erro #VALOR! até entender como as referências de abas funcionam. Foi difícil, mas valeu a pena!
+Desenvolvido durante o desafio de Excel na DIO. Aqui foi quebrar a cabeça com o erro #VALOR! até entender como as referências de abas funcionam. Foi difícil, mas valeu a pena!
 
 Sinta-se à vontade para baixar, testar e me dar feedbacks. Toda sugestão é muito bem-vinda para o meu crescimento!
